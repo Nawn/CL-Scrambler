@@ -1,0 +1,5 @@
+Hello, this is a #[test~trial run]. I #[have created~am creating] this #[#[text~note]pad~file] to display how easily
+you can #[use~appreciate~take advantage of] my #[parser~program~software].
+
+Thank#[s~ you]
+#[Make sure~Don't forget] to #[delete~wipe~erase] this #[#[text~note]pad~file] in #[use~production]
