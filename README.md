@@ -5,7 +5,7 @@ I built this program to go along with facilitating my Craigslist postings. It is
 
 Because of the fact that Craigslist does not like bots, I had to make sure that the output was not always the same, and in fact, as human as possible. But how do I achieve that, without hand-writing the posts I make? Well, I don't. I do hand write the posts, however I include plenty of synonyms and run the text file through my Parser.parse function, which is an algorithm that will replace all #[~] notation with one of the options separated by the `~`. The `#[` string will trigger the parsing. It will look for the appropriate `]`, and then pick one of the strings separated by the `~`. 
 
-*Also, **YES**, you **can** nest your #[~] statements.*
+**Also, _YES_, you _can_ nest your #[~] statements.**
 
 ## Parser Example~!
 
