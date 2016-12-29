@@ -71,14 +71,14 @@ class Scrambler
 	def gen_body
 
 		# 25% chance to run the corporate body, else to run the template bodies
-		if ((rand() * 100) + 1) < 25
-			maker = BodyGenContainer::CorporateBody.new
-		else
-			maker = BodyGenContainer::ParsedBody.new
-		end
+		# if ((rand() * 100) + 1) < 25
+		# 	maker = BodyGenContainer::CorporateBody.new
+		# else
+		# 	maker = BodyGenContainer::ParsedBody.new
+		# end
 
 		# This will create a maker of a random class, all held within the body generator container,
-		# maker = BodyGenContainer.const_get(BodyGenContainer.constants.sample).new
+		maker = BodyGenContainer.const_get(BodyGenContainer.constants.sample).new
 
 		maker.return_body
 	end
